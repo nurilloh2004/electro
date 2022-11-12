@@ -1,0 +1,229 @@
+{% load i18n static %}
+<footer class="main-footer">
+
+    <!--Upper Section-->
+    <div class="upper-section">
+      <div class="auto-container">
+        <div class="outer clearfix">
+          <!--Service-->
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="icon-box">
+                <span class="for_icon_footer">
+                  <i class="fas fa-truck"></i>
+                </span>
+                </div>
+              <div class="service-title"><a href="#">{% trans 'Energy Efficiency Solutions' %}</a></div>
+            </div>
+          </div>
+          <!--Service-->
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="icon-box"><span  class="for_icon_footer"><i class="<i class="fa-solid fa-file-certificate"></i>"></i></span></div>
+              <div class="service-title"><a href="#">{% trans 'Solar panel Commissioning' %}</a></div>
+            </div>
+          </div>
+          <!--Service-->
+          <div class="service-block-two logo-block">
+            <div class="inner-box">
+              <div class="logo">
+                <a href="#">
+                  <div class="logo d-flex for__footer_logo">
+                    <div class="animated-image_footer">
+                      <img src="{% static 'images/energorpibor.svg' %}">
+                      <span></span>
+                    </div>
+                    <a href="" id="#logo" class="header__logo_footer">Energopribor</a>
+                  </div>
+                </a>
+              </div>
+              <div class="social-links">
+                <ul class="clearfix">
+                  <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                  <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                  <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                  <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--Service-->
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="icon-box"><span  class="for_icon_footer"><i class="fas fa-certificate"></i></span></div>
+              <div class="service-title"><a href="#">{% trans 'Battery backup Generator' %}</a></div>
+            </div>
+          </div>
+          <!--Service-->
+          <div class="service-block-two">
+            <div class="inner-box">
+              <div class="icon-box"><span  class="for_icon_footer"><i class="fas fa-coins"></i></span></div>
+              <div class="service-title">{% trans 'WHOLE HOUSE SURGE PROTECTION'%}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Widgets Section-->
+    <div class="widgets-section">
+      <div class="auto-container">
+        <div class="row clearfix">
+
+          <!--Column-->
+          <div class="footer-column col-lg-3 col-md-5 col-sm-12">
+            <div class="footer-widget info-widget">
+              <div class="widget-title">
+                <h3>{% trans 'Contact Us' %}</h3>
+              </div>
+              <div class="info">
+                <!--Info Block-->
+                <div class="info-block">
+                  <div class="icon-box">
+                    <span class="icon">
+                      <img src="images/icons/icon-message-1.png" alt="">
+                    </span>
+                  </div>
+                  <strong>{% trans 'Visit The Office' %}</strong>
+                  <div class="info-text">{% trans '102 Taily End Rd, NY' %}</div>
+                </div>
+                <!--Info Block-->
+                <div class="info-block">
+                  <div class="icon-box">
+                    <span class="icon">
+                      <img src="images/icons/icon-call-1.png" alt="">
+                    </span>
+                  </div>
+                  <strong>{% trans 'Phone Enquiry' %}</strong>
+                  <div class="info-text">
+                    <a href="tel:(222)-303-4500">{% trans 'nomer' %}</a>
+                  </div>
+                </div>
+                <!--Info Block-->
+                <div class="info-block">
+                  <div class="icon-box">
+                    <span class="icon">
+                      <img src="images/icons/icon-mail-1.png" alt="">
+                    </span>
+                  </div>
+                  <strong>{% trans 'Send Email' %}</strong>
+                  <div class="info-text">
+                    <a href="{% trans 'email' %}">{% trans 'email' %}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Column-->
+          <div class="big-column col-lg-6 col-md-7 col-sm-12">
+            <div class="row clearfix">
+              <!--Column-->
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget links-widget">
+                  <div class="widget-title">
+                    <h3>{% trans 'Quick Links' %}</h3>
+                  </div>
+                  <div class="widget-content">
+                    <ul>
+                      <li><a href="{% url 'about' %}">{% trans 'О компании' %}</a></li>
+                      <li><a href="{% url 'contact' %}">{% trans 'Контакты' %}</a></li>
+                      <li><a href="{% url 'partners' %}">{% trans 'Партнер' %}</a></li>
+                      <li><a href="{% url 'store_category' %}">{% trans 'Продукты' %}</a></li>
+                      <li><a href="{% url 'team' %}">{% trans 'Команда' %}</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!--Column-->
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget links-widget">
+                  <div class="widget-title">
+                    <h3>{% trans 'Our Services' %}</h3>
+                  </div>
+                  <div class="widget-content">
+                    <ul>
+                      <li><a href="#">{% trans 'Installation &amp; Monitoring' %}</a></li>
+                      <li><a href="#">{% trans 'After Sales Service' %}</a></li>
+                      <li><a href="#">{% trans 'Free Replacemrnt' %}</a></li>
+                      <li><a href="#">{% trans 'Warrenty Claims' %}</a></li>
+                      <li><a href="#">{% trans 'Energy Equipments' %}</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Column-->
+          <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-widget gallery-widget">
+              <div class="widget-title">
+                <h3>Project Gallery</h3>
+              </div>
+              <div class="widget-content">
+                <div class="images">
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/1.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-1.jpg" alt=""></a>
+                  </figure>
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/2.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-2.jpg" alt=""></a>
+                  </figure>
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/3.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-3.jpg" alt=""></a>
+                  </figure>
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/4.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-4.jpg" alt=""></a>
+                  </figure>
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/5.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-5.jpg" alt=""></a>
+                  </figure>
+                  <figure class="image">
+                    <a class="lightbox-image" href="images/gallery/6.jpg"
+                      data-fancybox="gallery"><img
+                        src="images/gallery/gallery-thumb-6.jpg" alt=""></a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="auto-container">
+
+        <div class="inner clearfix">
+          <!--Scroll to top-->
+          <div class="scroll-top-footer scroll-to-target"
+            data-target="html"><span class="flaticon-arrows"></span></div>
+          <!--Copyright-->
+          <div class="copyright">(c) 2019 <a href="#">STRNIX</a> Energy
+            Company. All rights reserved.</div>
+          <div class="footer-nav">
+            <ul class="clearfix">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
